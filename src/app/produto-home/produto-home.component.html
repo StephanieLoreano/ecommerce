@@ -1,0 +1,27 @@
+  <section class="single_product_list">
+    <div  class="container">
+        <div class="row">
+
+            <div class="single_product_iner">
+                <div class="row align-items-center justify-content-between">
+                    <div  *ngFor="let produto of produtos"  class="col-lg-6 col-sm-6">
+                        <div class="single_product_img">
+                            <img class="img-fluid w-100" [src]="produto.imagem" alt="" />
+                            <img src="assets/template/img/product_overlay.png" alt="#" class="product_overlay img-fluid">
+                        </div>
+                    </div>
+                    
+                    <div  *ngFor="let produto of produtos" class="col-lg-5 col-sm-6">
+                        <div class="single_product_content">
+                            <h5>{{ produto.preco }}</h5>
+                            <h1>{{ produto.nome }}</h1>
+                            <a href="produto-detalhe.html" class="btn_3" >Details</a>
+                            <a href="product_list.html" class="btn_3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
+<!-- product list end-->
