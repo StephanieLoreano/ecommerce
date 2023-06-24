@@ -4,9 +4,9 @@ import { AppRoutingModule } from './app.routing.module';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ProdutoHomeComponent } from './produto-home/produto-home.component';
-
 import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.component';
 import { HomeComponent } from './home/home.component';
+import { CarrinhoCompraComponent } from './carrinho-compra/carrinho-compra.component'
 import { ProdutoService } from './service/produto.service';
 
 
@@ -16,6 +16,7 @@ import { ProdutoService } from './service/produto.service';
     ProdutoHomeComponent,
     ProdutoDetalheComponent,
     HomeComponent,
+    CarrinhoCompraComponent
   ],
   imports: [
     BrowserModule,

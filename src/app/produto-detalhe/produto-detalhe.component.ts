@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProdutoService } from '../service/produto.service';
-import { CarrinhoComprasService } from '../service/carrinho-compra.service';
+import { CarrinhoCompraService } from '../service/carrinho-compra.service';
 
 @Component({
   selector: 'app-produto-detalhe',
@@ -14,7 +14,7 @@ export class ProdutoDetalheComponent implements OnInit{
   constructor(
     public activated_route:ActivatedRoute,
     public produto_service:ProdutoService,
-    public carrinho_service:CarrinhoComprasService
+    public carrinho_service:CarrinhoCompraService
   ){}
 
   ngOnInit(): void {

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CarrinhoCompraService } from '../service/carrinho-compra.service';
 
 @Component({
   selector: 'app-carrinho-compra',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class CarrinhoCompraComponent {
 
+  constructor(
+    public carrinho_service:CarrinhoCompraService
+  ){
+  }
 }
