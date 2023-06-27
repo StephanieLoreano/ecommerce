@@ -4,6 +4,8 @@ import { Routes,RouterModule } from '@angular/router';
 import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.component';
 import { ProdutoHomeComponent } from './produto-home/produto-home.component';
 import { HomeComponent } from './home/home.component';
+import { CarrinhoCompraComponent } from './carrinho-compra/carrinho-compra.component';
+import { ListarProdutoComponent } from './listar-produto/listar-produto.component';
 
 const routes:Routes = [
   {
@@ -18,6 +20,14 @@ const routes:Routes = [
   {
     path:'produto/:id',
     component:ProdutoDetalheComponent
+  },
+  {
+    path:'carrinho-compra',
+    component:CarrinhoCompraComponent
+  },
+  {
+    path:'listar-produto',
+    component:ListarProdutoComponent
   }
 ];
 

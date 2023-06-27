@@ -7,9 +7,10 @@ import { CarrinhoCompraService } from '../service/carrinho-compra.service';
   styleUrls: ['./carrinho-compra.component.css']
 })
 export class CarrinhoCompraComponent {
+  
 
   constructor(
     public carrinho_service:CarrinhoCompraService
   ){
   }
-}
+} 

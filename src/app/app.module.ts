@@ -8,6 +8,7 @@ import { ProdutoDetalheComponent } from './produto-detalhe/produto-detalhe.compo
 import { HomeComponent } from './home/home.component';
 import { CarrinhoCompraComponent } from './carrinho-compra/carrinho-compra.component'
 import { ProdutoService } from './service/produto.service';
+import { ListarProdutoComponent } from './listar-produto/listar-produto.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ProdutoService } from './service/produto.service';
     ProdutoHomeComponent,
     ProdutoDetalheComponent,
     HomeComponent,
-    CarrinhoCompraComponent
+    CarrinhoCompraComponent,
+    ListarProdutoComponent
   ],
   imports: [
     BrowserModule,
